@@ -231,6 +231,7 @@
 }
 .content-container .content h1{
     color: aliceblue;
+    width: 100px;
     
 }
 .content-container .content:hover,
@@ -310,4 +311,72 @@
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+}
+.experiance{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(2,0,36,1);
+    color: rgb(224, 221, 221);
+    width: 100%;
+}
+.Education,.my-experiance {
+    margin: 50px 150px;
+}
+.Education .block,
+.my-experiance .block{
+    border: 1px transparent;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 18px;
+    background-image: linear-gradient(to right,rgba(160, 2, 223, 0.158) ,rgba(200, 112, 241, 0.212));
+}
+.Education .block:hover,
+.my-experiance .block:hover{
+    background-image: linear-gradient(to right,rgba(160, 2, 223, 0.589) ,rgba(203, 139, 233, 0.63));
+}
+.my-experiance h1,
+.Education h1{
+    background-image: linear-gradient(to right,rgb(181, 34, 240) ,rgb(227, 190, 245));
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.my-experiance h1 i,
+.Education h1 i{
+    padding-right: 20px;
+}
+.Education .block h4,
+.my-experiance .block h4{
+    background-image: linear-gradient(to right,rgba(182, 34, 240, 0.781) ,rgba(227, 190, 245, 0.808));
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.Education .block h3,
+.my-experiance .block h3{
+    font-size: 30px;
+    padding-bottom: 7px;
+}
+.Education .block span,
+.my-experiance .block span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.skills{
+    background-image: linear-gradient(to right top, rgba(2,0,36,1) 16%, rgb(35, 0, 63) 45%, rgba(14,2,38,1)100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skills-header h1{
+    background-image: linear-gradient(to right,rgba(182, 34, 240, 0.781) ,rgba(227, 190, 245, 0.808));
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
 }
